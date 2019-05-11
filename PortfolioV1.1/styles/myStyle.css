@@ -1,0 +1,228 @@
+body {  /*Background image*/
+    direction: ltr;
+    background-image: url("../Image/myBG2.0.jpg");
+    background-repeat: repeat;
+    font-family: 'Roboto Slab', serif;
+
+}
+#bigContainer {    /*A container for the long page so it wouldnt end to soon*/
+    width: 960px;
+    margin: auto;
+    background-color: #F7E8DA;
+}
+
+#container {     /*A container for all the pages*/
+    width: 960px;
+    height: 700px;
+    margin: auto;
+    background-color: #F7E8DA;
+}
+
+#navLine {     /*A place for my navigation bar*/
+    width: 960px;
+    background-color: #8BC67C;
+    height: 68px;
+}
+
+#logoPic img { /*My name, and its placement near the nav bar*/
+    position: relative;
+    height: 50px;
+    width: 250px;
+    bottom: 55px;
+    left: 710px;
+    
+}
+
+    #logoPic1 >img { /*On one Page the my name was a little off, so this fixed it*/
+        top: 9px;
+    }
+
+.NavBar {    /*Navigation Bar*/
+    display: block;
+    font-size:11pt;
+}
+
+    .NavBar ul li {
+        display: inline-block;
+       
+        
+    }
+
+        .NavBar ul li img{
+            position:relative;
+
+            
+        }
+
+        .NavBar ul li a {
+            display: block;
+            background-color: #7FA879;
+            width: 100px;
+            height: 30px;
+            padding: 18px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            bottom: 10px;
+            -webkit-transition: all 2s ease;
+            -moz-transition: all 2s ease;
+            -ms-transition: all 2s ease;
+            -o-transition: all 2s ease;
+            transition: all 2s ease;
+        }
+
+
+
+            .NavBar ul li a:hover {  /*Change color as you hover on the navigation bar*/
+                background-color: #E4D4FF;
+                color: black;
+            }
+
+#OnPage { /*Keeps track of what page the user is on*/
+    background-color: #E4D4FF;
+    color: black;
+}
+
+.musOnPage { /*music placement in the website*/
+    position: absolute;
+    top:0;
+    margin-left: 960px;
+}
+
+#musOnPage2 { /*wasnt in order on page2, couldnt find a problem so i gave it a different ID*/
+    position: absolute;
+    top: 0;
+    margin-left: 960px;
+}
+
+#headLine { /*First Headline on the first page*/
+    font-size: 40pt;
+    padding-top: 150px;
+    margin-left: 85px;
+}
+
+#frontPic img { /*Image on first page*/
+    position: relative;
+    left: 620px;
+    bottom: 95px;
+}
+
+.TXTbox, .pageTXT { /*The classes for my texts*/
+    font-size: 12pt;
+    padding-top: 40px;
+    width: 460px;
+    height: 10px;
+    margin-left: 92px;
+    line-height: 1.5;
+}
+
+.pageTXT { /*a little different variation for several pages*/
+    width: 700px;
+    margin-left: 130px;
+}
+
+#arts { /*The table with the work of art and its interpretation*/
+    position: relative;
+    margin: auto;
+    margin-top: 270px;
+    
+    width: 600px;
+}
+
+
+
+#arts td{
+
+    vertical-align:middle;
+    text-align:center;
+
+}
+
+    #arts img {
+        width: 180px;
+        height: 300px;
+        
+    }
+
+    #arts img:hover {
+       
+        transform:scale(2);
+    }
+
+
+
+#youTubeBox {    /*The placement of the youtube video*/
+   margin-left:200px;
+    margin-top: 150px;
+    
+}
+
+#backTo { /*Back to top on the second page because its long*/
+    
+    font-size:30pt;
+    margin-top:20px;
+    text-align:center;
+    display:block;
+    padding:20px;
+}
+
+
+#firstHead { /*HeadLine for all pages exept homepage*/
+    margin-top: 20px;
+    margin-left: 92px;
+    font-size: 30pt;
+}
+
+.secondHead { /*all the h2 on the website*/
+    margin-left: 92px;
+    font-size: 20pt;
+}
+
+#githubLink { /*a link to github*/
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 100px;
+    border: 1px solid black;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+    #githubLink:hover {
+        transform: scale(1.2);
+    }
+
+#page3Pic { /*The image of my classmate*/
+        float: right;
+ }
+
+
+#contactMe { /*The facebook link with the caption above it*/
+    position:relative;
+    left: 134px;
+    top: 200px;
+}
+
+
+
+    #contact { 
+        font-size: 20pt;
+    }
+
+#contactMe img { /*the black circle that appears and the growth of the facebook icon*/
+    background-color: transparent;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+    #contactMe img:hover {
+        background-color: black;
+        transform: scale(1.1);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+    }
